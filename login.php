@@ -14,13 +14,13 @@
 	
       $user = R::dispense('users');
       $user->right = "0";
-      $user->photo = "upload/profile/newuser/image.png";
 			$user->lastname = $data['lastname'];
 			$user->firstname = $data['firstname'];
 			$user->group = $data['group'];
 			$user->email = $data['email'];
 			$user->password = $data['password'];
 			$user->password = password_hash($data['password'], PASSWORD_DEFAULT); 
+			$user->photo = "upload/profile/newuser/image.png";
       R::store($user);
       $_POST = NULL;
 			header('Location: login.php?reg=1');
@@ -123,7 +123,7 @@ function(isConfirm){
                                 <div class="form-group">
                                      <label class="control-label">First Name</label>
                                    
-                                        <input type="text" id="2" autocomplete="off" class="form-control" name="firstname" placeholder="First Name"required >
+                                        <input type="text" id="2" autocomplete="off" class="form-control" name="firstname" placeholder="First Name"required onkeyup="return check(this);" >
                                   
                                 </div>
 								                                <div class="form-group">
@@ -176,7 +176,7 @@ function(isConfirm){
 	<script type="text/javascript"> 
 function check(input) { 
     var value = input.value; 
-    var rep = /[\.:'=+\s\d_а-яА-Я]/; 
+    var rep = /[^' 'A-Za-z]/;  
     if (rep.test(value)) { 
         value = value.replace(rep, ''); 
         input.value = value; 
