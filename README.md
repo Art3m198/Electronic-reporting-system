@@ -32,11 +32,13 @@
 
 # Test account
 ### Admin/Teacher:
-Login: admin@gmail.com
+Login: admin@gmail.com  
 Password: 123
 
 ### User/Student:
-Login: adam@gmail.com
+Login: adam@gmail.com  
 Password: 123
 
 #### Don't forget to import database.sql to the database.
+
+
