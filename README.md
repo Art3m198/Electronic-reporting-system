@@ -2,7 +2,7 @@
 
 - PHP, jQuery, MySQL, CSS, HTML 
 - Login and registration form with saving data to the database
-- Custom avatar, change lastname, firstname and password in "Settings" menu
+- Custom avatar, change lastname, firstname, email and password in "Settings" menu
 - Loading reports with the ability to specify the discipline
 - The teacher can evaluate reports after the student has uploaded the report
 
