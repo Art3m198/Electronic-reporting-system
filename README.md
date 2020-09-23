@@ -32,7 +32,7 @@
 
 # Test account
 ### Admin/Teacher:
-Login: admin@gmail.com 
+Login: admin@gmail.com
 Password: 123
 
 ### User/Student:
