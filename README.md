@@ -39,4 +39,4 @@ Password: 123
 Login: adam@gmail.com
 Password: 123
 
-#### Don't forget to import database data. (database.sql)
+#### Don't forget to import database.sql to the database.
