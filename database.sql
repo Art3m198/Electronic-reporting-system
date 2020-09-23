@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Сен 23 2020 г., 13:54
+-- Время создания: Сен 23 2020 г., 13:56
 -- Версия сервера: 5.5.25
 -- Версия PHP: 5.6.19
 
@@ -40,13 +40,6 @@ CREATE TABLE IF NOT EXISTS `reports` (
   `signature` varchar(191) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT=3 ;
-
---
--- Дамп данных таблицы `reports`
---
-
-INSERT INTO `reports` (`id`, `idreport`, `lastname`, `firstname`, `group`, `date`, `name`, `disc`, `file`, `estimation`, `signature`) VALUES
-(1, 7, 'Adam', 'Jensen', 4652, '23.09.2020 16:21', 'Homework', 'History', 'upload/7/1600867314.jpg', 'A', '');
 
 -- --------------------------------------------------------
 
