@@ -64,7 +64,7 @@ header('Location: index.php');?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-<title>Report system for study</title>
+<title>Report system</title>
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- Font-icon css-->
@@ -95,7 +95,7 @@ function(isConfirm){
     </section>
     <section class="login-content">
       <div class="logo">
-        <h1>Report system for study</h1>
+        <h1>Report system</h1>
       </div>	
         <div class="login-box"> 
     <form class="login-form" action="" method="POST">		
