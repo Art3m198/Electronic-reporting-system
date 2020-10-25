@@ -370,7 +370,7 @@ header("Location: login.php");?>
 		<script type="text/javascript" src="js/plugins/bootstrap-notify.min.js"></script>
     <script type="text/javascript" src="js/plugins/sweetalert.min.js"></script>
 	<script type="text/javascript" src="dist/jquery.tabledit.js"></script>
-	<script type="text/javascript" src="custom_table_edit.js"></script>
+	<script type="text/javascript" src="js/custom_table_edit.js"></script>
     <script type="text/javascript">
       $('#sl').on('click', function(){
       	$('#tl').loadingBtn();
