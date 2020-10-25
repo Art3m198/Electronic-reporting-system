@@ -6,6 +6,8 @@
 - Loading reports with the ability to specify the discipline
 - The teacher can evaluate reports after the student has uploaded the report
 
+MySQL settings -> db.php  
+
 # Screenshots
 
 ### Login & Registration form:
