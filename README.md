@@ -6,8 +6,6 @@
 - Loading reports with the ability to specify the discipline
 - The teacher can evaluate reports after the student has uploaded the report
 
-MySQL settings -> db.php  
-
 # Screenshots
 
 ### Login & Registration form:
@@ -41,6 +39,8 @@ Password: 123
 Login: adam@gmail.com  
 Password: 123
 
-#### Don't forget to import database.sql to the database.
+## Install:  
 
+- Import database.sql to the database  
+- Configure the file db.php  
 
