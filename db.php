@@ -1,7 +1,7 @@
 <?php 
 date_default_timezone_set("Europe/Moscow");
 require 'libs/rb.php';
-R::setup( 'mysql:host=localhost:8889;dbname=name','name', 'password' ); 
+R::setup( 'mysql:host=localhost;dbname=report','report', '12345' ); 
 
 if ( !R::testconnection() )
 {
